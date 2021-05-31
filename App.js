@@ -3,27 +3,25 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import HomeScreen from './src/screens/HomeScreen';
-import ComponentsScreen from './src/screens/ComponentsScreens';
-import ListScreen from './src/screens/ListScreen';
-import ImageScreen from './src/screens/ImageScreen';
-import CounterScreen from './src/screens/CounterScreen';
-import ColorScreen from './src/screens/ColorScreen';
-import SquareScreen from './src/screens/SquareScreen';
+import PromptScreen from './src/screens/PromptScreen';
 
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
-    Components: ComponentsScreen,
-    List: ListScreen,
-    Image: ImageScreen,
-    Counter: CounterScreen,
-    Color: ColorScreen,
-    Square: SquareScreen
+    Prompt: PromptScreen,
   },
   {
     initialRouteName: 'Home',
     defaultNavigationOptions: {
-      title: 'App',
+      title: 'Spitballers App',
+      headerTitleAlign: 'center',
+      headerStyle: {
+        backgroundColor: '#f4511e',
+      },
+      headerTintColor: '#fff',
+      headerTitleStyle: {
+        fontWeight: 'bold',
+      },
     },
   }
 );
