@@ -16,7 +16,7 @@ export const arr = [
     {
       id: 2,
       text:
-        `You're walking in a forest and find a black suitcase. Inside it holds $1 million dollar and a piece of paper stained in blood with a single word, "Don’t." What would you do?`,
+        `You're walking in a forest and find a black suitcase. Inside it holds $1 million dollars and a piece of paper stained in blood with a single word, "Don’t." What would you do?`,
         episode: 4,
     },
     {

@@ -23,25 +23,37 @@ const HomeScreen = ({ navigation }) => {
       </Spacer>
       <Spacer>
         <Button
-          title="That's a great question"
+          title="That's a Great Question"
           onPress={() => navigation.navigate('Prompt', { category: 'GQ' })}
         />
       </Spacer>
       <Spacer>
         <Button
-          title="What would you do"
+          title="What Would You Do"
           onPress={() => navigation.navigate('Prompt', { category: 'WWYD' })}
         />
       </Spacer>
       <Spacer>
         <Button
-          title="Our favorite things"
+          title="The Situation Room"
+          onPress={() => navigation.navigate('Prompt', { category: 'TSR' })}
+        />
+      </Spacer>
+      <Spacer>
+        <Button
+          title="Our Favorite Things"
           onPress={() => navigation.navigate('Prompt', { category: 'OFT' })}
         />
       </Spacer>
       <Spacer>
         <Button
-          title="Our favorite things"
+          title="Explain in 60 Seconds"
+          onPress={() => navigation.navigate('Prompt', { category: 'EISS' })}
+        />
+      </Spacer>
+      <Spacer>
+        <Button
+          title="Mock Draft"
           onPress={() => navigation.navigate('Prompt', { category: 'MD' })}
         />
       </Spacer>

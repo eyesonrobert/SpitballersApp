@@ -31,4 +31,9 @@ export const arr = [
     text: `What's your three favorite smells?`,
     episode: 8,
   },
+  {
+    id: 6,
+    text: `What is your hottest take that most people will most likely hate?`,
+    episode: 8,
+  },
 ];

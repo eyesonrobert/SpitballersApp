@@ -1,7 +1,7 @@
 /** @format */
 
 import React, { useState } from 'react';
-import { Text, StyleSheet, View, TouchableOpacity } from 'react-native';
+import { Text, StyleSheet, View, TouchableOpacity, Animated, Button } from 'react-native';
 import { Card } from 'react-native-elements';
 import { Feather } from '@expo/vector-icons';
 import { Dimensions } from 'react-native';
@@ -12,6 +12,9 @@ import * as FavoriteThings from '../prompts/FavoriteThings';
 import * as MockDraft from '../prompts/MockDraft';
 import * as WhatWouldYouDo from '../prompts/WhatWouldYouDo';
 import * as WouldYouRather from '../prompts/WouldYouRather';
+import * as Explain from '../prompts/Explain';
+import * as SituationRoom from '../prompts/SituationRoom';
+import Countdown from './Countdown';
 
 const windowHeight = Dimensions.get('window').height;
 const windowWidth = Dimensions.get('window').width;
@@ -41,9 +44,19 @@ const PromptScreen = ({ navigation }) => {
     optionsArr = WhatWouldYouDo.arr;
   }
 
+  if (category === 'TSR') {
+    categoryTitle = 'The Situation Room';
+    optionsArr = SituationRoom.arr;
+  }
+
   if (category === 'OFT') {
-    categoryTitle = 'Our favorite things';
+    categoryTitle = 'Our Favorite Things';
     optionsArr = FavoriteThings.arr;
+  }
+
+  if (category === 'EISS') {
+    categoryTitle = 'Explain in 60 Seconds';
+    optionsArr = Explain.arr;
   }
 
   if (category === 'MD') {
@@ -85,6 +98,7 @@ const PromptScreen = ({ navigation }) => {
       </Card>
       <Text style={styles.episodeNumber}>episode: {episode}</Text>
 
+    <Countdown/>
       <TouchableOpacity
         style={styles.refreshButton}
         onPress={() => {
