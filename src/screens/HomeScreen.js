@@ -7,7 +7,7 @@ import Spacer from '../components/Spacer';
 const HomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Choose a category!</Text>
+      <Text style={styles.text}>Choose a category</Text>
       <Spacer />
       <Spacer>
         <Button

@@ -1,7 +1,7 @@
 /** @format */
 
 import React, { useState } from 'react';
-import { Text, StyleSheet, View, TouchableOpacity, Animated, Button } from 'react-native';
+import { Text, StyleSheet, View, TouchableOpacity } from 'react-native';
 import { Card } from 'react-native-elements';
 import { Feather } from '@expo/vector-icons';
 import { Dimensions } from 'react-native';
@@ -84,6 +84,7 @@ const PromptScreen = ({ navigation }) => {
     optionsArr.find((prompt) => {
       if (prompt.id === randomId) {
         setEpisode(prompt.episode);
+
         return setDisplayPrompt(prompt.text);
       }
     });
@@ -98,7 +99,8 @@ const PromptScreen = ({ navigation }) => {
       </Card>
       <Text style={styles.episodeNumber}>episode: {episode}</Text>
 
-    <Countdown/>
+      {category === 'EISS' ? <Countdown /> : null}
+
       <TouchableOpacity
         style={styles.refreshButton}
         onPress={() => {
