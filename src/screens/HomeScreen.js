@@ -1,69 +1,84 @@
 /** @format */
 
 import React from 'react';
-import { Text, StyleSheet, View, Button } from 'react-native';
+import { Text, StyleSheet, View, TouchableOpacity } from 'react-native';
 import Spacer from '../components/Spacer';
+import { LinearGradient } from 'expo-linear-gradient';
 
 const HomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
+      <LinearGradient colors={['white', '#ffdb9a']} style={styles.background} />
       <Text style={styles.text}>Choose a category</Text>
       <Spacer />
       <Spacer>
-        <Button
-          title='Would You Rather'
-          onPress={() => navigation.navigate('Prompt', { category: 'WYR' })}
-        />
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => navigation.navigate('Prompt', { category: 'WYR' })}>
+          <Text style={styles.buttonText}> Would You Rather </Text>
+        </TouchableOpacity>
       </Spacer>
       <Spacer>
-        <Button
-          title='Life Advice'
-          onPress={() => navigation.navigate('Prompt', { category: 'LA' })}
-        />
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => navigation.navigate('Prompt', { category: 'LA' })}>
+          <Text style={styles.buttonText}> Life Advice </Text>
+        </TouchableOpacity>
       </Spacer>
       <Spacer>
-        <Button
-          title="That's a Great Question"
-          onPress={() => navigation.navigate('Prompt', { category: 'GQ' })}
-        />
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => navigation.navigate('Prompt', { category: 'GQ' })}>
+          <Text style={styles.buttonText}> That's a Great Question </Text>
+        </TouchableOpacity>
       </Spacer>
       <Spacer>
-        <Button
-          title="What Would You Do"
-          onPress={() => navigation.navigate('Prompt', { category: 'WWYD' })}
-        />
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => navigation.navigate('Prompt', { category: 'WWYD' })}>
+          <Text style={styles.buttonText}> What Would You Do </Text>
+        </TouchableOpacity>
       </Spacer>
       <Spacer>
-        <Button
-          title="The Situation Room"
-          onPress={() => navigation.navigate('Prompt', { category: 'TSR' })}
-        />
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => navigation.navigate('Prompt', { category: 'TSR' })}>
+          <Text style={styles.buttonText}> The Situation Room </Text>
+        </TouchableOpacity>
       </Spacer>
       <Spacer>
-        <Button
-          title="Our Favorite Things"
-          onPress={() => navigation.navigate('Prompt', { category: 'OFT' })}
-        />
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => navigation.navigate('Prompt', { category: 'OFT' })}>
+          <Text style={styles.buttonText}> Our Favorite Things </Text>
+        </TouchableOpacity>
       </Spacer>
       <Spacer>
-        <Button
-          title="Explain in 60 Seconds"
-          onPress={() => navigation.navigate('Prompt', { category: 'EISS' })}
-        />
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => navigation.navigate('Prompt', { category: 'EISS' })}>
+          <Text style={styles.buttonText}> Explain in 60 Seconds </Text>
+        </TouchableOpacity>
       </Spacer>
       <Spacer>
-        <Button
-          title="Mock Draft"
-          onPress={() => navigation.navigate('Prompt', { category: 'MD' })}
-        />
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => navigation.navigate('Prompt', { category: 'MD' })}>
+          <Text style={styles.buttonText}> Mock Draft </Text>
+        </TouchableOpacity>
       </Spacer>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-    margin: 25,
+  container: {},
+  background: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    top: 0,
+    height: 800,
   },
   text: {
     fontSize: 30,
@@ -71,6 +86,12 @@ const styles = StyleSheet.create({
   },
   button: {
     marginTop: 15,
+    alignItems: 'center',
+  },
+  buttonText: {
+    color: '#2c8ab5',
+    fontWeight: 'bold',
+    fontSize: 18,
   },
 });
 

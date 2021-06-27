@@ -6,6 +6,7 @@ import { Card } from 'react-native-elements';
 import { Feather } from '@expo/vector-icons';
 import { Dimensions } from 'react-native';
 import Spacer from '../components/Spacer';
+import Countdown from './Countdown';
 import * as GreatQuestion from '../prompts/GreatQuestion';
 import * as LifeAdvice from '../prompts/LifeAdvice';
 import * as FavoriteThings from '../prompts/FavoriteThings';
@@ -14,7 +15,6 @@ import * as WhatWouldYouDo from '../prompts/WhatWouldYouDo';
 import * as WouldYouRather from '../prompts/WouldYouRather';
 import * as Explain from '../prompts/Explain';
 import * as SituationRoom from '../prompts/SituationRoom';
-import Countdown from './Countdown';
 
 const windowHeight = Dimensions.get('window').height;
 const windowWidth = Dimensions.get('window').width;
@@ -40,7 +40,7 @@ const PromptScreen = ({ navigation }) => {
   }
 
   if (category === 'WWYD') {
-    categoryTitle = 'What would you do';
+    categoryTitle = 'What Would You Do';
     optionsArr = WhatWouldYouDo.arr;
   }
 
