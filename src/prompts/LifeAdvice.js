@@ -94,4 +94,74 @@ export const arr = [
     text:  `Are you supposed to stay sitting or stand up when you wipe?`,
     episode: 18,
   },
+  {
+    id: 18,
+    text:  `I work in an open cubicle area and have noticed in the past couple of months that my coworkers say bless you to each other when one of them sneezes. However, they never say it when I sneeze but I really want them to say it to me so how should I confront this issue?`,
+    episode: 20,
+  },
+  {
+    id: 19,
+    text:  `No one in my house likes the same type of mile; some like skim milk, some like vitamin D, and some like almond mile. It's really annoying to buy different kinds of mile. What do I do`,
+    episode: 20,
+  },
+  {
+    id: 20,
+    text:  `Are you supposed to shower in the morning or shower at night? I was raised showering in the morning to feel clean during the day but my partner insists on showering before bed so they're clean getting into bed. Thoughts?`,
+    episode: 20,
+  },
+  {
+    id: 21,
+    text:  `When using a q-tip in your ear, do you lick it first before putting it in your ear or do you just leave it dry?`,
+    episode: 23,
+  },
+  {
+    id: 22,
+    text:  `There are two coffee shops by my house; my partner loves one and I love the other. The problem is that my coffee shop is starting to slip and theirs is getting better. Now I like my partner's more, I don't want to let them know, and I don't want to keep drinking my crappy coffee. What do I do?`,
+    episode: 23,
+  },
+  {
+    id: 23,
+    text:  `Hypothetically, if a close friend of mine happen to murder someone for a really good reason but you couldn't go to the police, how would you dispose of the body or would you turn them in?`,
+    episode: 23,
+  },
+  {
+    id: 24,
+    text:  `I just farted and the room was empty but now the person I like has walked in here and I know that they can smell it. What do I do now?`,
+    episode: 25,
+  },
+  {
+    id: 25,
+    text:  `When you get on an escalator, are you supposed to walk up it or just stand there and let it carry you up?`,
+    episode: 25,
+  },
+  {
+    id: 26,
+    text:  `Growing up I was told I have to take at least a little bite out of every dish on the table during the meal. Out of habit, I still do. Now, my in-laws think I love a certain dish and make it specifically for me when I come over but actually despise it. What do I do?`,
+    episode: 26,
+  },
+  {
+    id: 27,
+    text:  `We had people over for a potluck  and some of our friends needed to head out early and asked if they could take some pie to go. I said they could but on the way out I noticed they took an entire uneaten pie and whipped cream. Are they simply doing what I already approved or are they pie thieves?`,
+    episode: 26,
+  },
+  {
+    id: 28,
+    text:  `Hello! My partner and I both want a pet but one of us wants a cat and the other wants a dog. What do we do?`,
+    episode: 26,
+  },
+  {
+    id: 29,
+    text:  `I'm 13 years old and I have two 7 year old twin sisters. I always seem to get blamed for everything. When I try to explain it wasn't me I just get into MORE trouble. What do I do?`,
+    episode: 32,
+  },
+  {
+    id: 30,
+    text:  `I asked my significant other if they wanted to grab lunch. They said they had school, so I went by myself. They later texted me saying that class was cancelled and wanted me to go get lunch with them. Now, they're mad that I don't want to go with them. What do I do?`,
+    episode: 33,
+  },
+  {
+    id: 31,
+    text:  `I went one a first date lately and the person was telling me about how they're just now watching Lost. While talking about it, I'm pretty sure they spoiled the entire show for me. I've never seen it so I wanted them to stop but I didn't know how. Can I even take them on a second date?`,
+    episode: 33,
+  },
 ];

@@ -71,5 +71,70 @@ export const arr = [
       text: `Survival Supplies`,
       episode: 18,
     },
+    {
+      id: 14,
+      text: `Vacation Destinations`,
+      episode: 20,
+    },
+    {
+      id: 15,
+      text: `Game Shows`,
+      episode: 21,
+    },
+    {
+      id: 16,
+      text: `Celebrity Best Friends`,
+      episode: 22,
+    },
+    {
+      id: 17,
+      text: `Thanksgiving Sides`,
+      episode: 23,
+    },
+    {
+      id: 18,
+      text: `Best TV Dads`,
+      episode: 24,
+    },
+    {
+      id: 19,
+      text: `Potato Chips`,
+      episode: 25,
+    },
+    {
+      id: 20,
+      text: `Best Christmas Movies`,
+      episode: 26,
+    },
+    {
+      id: 21,
+      text: `Scariest Movie Monsters`,
+      episode: 27,
+    },
+    {
+      id: 22,
+      text: `Food Fight To The Death`,
+      episode: 28,
+    },
+    {
+      id: 23,
+      text: `Chores you Never Have to do Again`,
+      episode: 29,
+    },
+    {
+      id: 24,
+      text: `Most Memorable TV Theme Songs`,
+      episode: 30,
+    },
+    {
+      id: 24,
+      text: `Best Mythical Creatures to Have as Pets`,
+      episode: 32,
+    },
+    {
+      id: 25,
+      text: `Soda Pops`,
+      episode: 33,
+    },
   ];
   

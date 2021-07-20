@@ -243,4 +243,174 @@ export const arr = [
     text: `Would you rather be eaten by a dinosaur or a shark?`,
     episode: 19,
   },
+  {
+    id: 46,
+    text: `Would you rather have $10M but only 1 hour to spend it or $1M and you can spend it at your leisure?`,
+    episode: 20,
+  },
+  {
+    id: 47,
+    text: `Would you rather never eat another carb again or never eat any dairy?`,
+    episode: 20,
+  },
+  {
+    id: 48,
+    text: `Would you rather be able to fly but only two feet high or read minds but only hear their negative thoughts about you?`,
+    episode: 20,
+  },
+  {
+    id: 49,
+    text: `Would you rather have your children or your partner pick every meal you eat?`,
+    episode: 21,
+  },
+  {
+    id: 50,
+    text: `Would you rather be filthy rich in the 1800s or poor and living today?`,
+    episode: 21,
+  },
+  {
+    id: 51,
+    text: `Would you rather be a reverse centaur or a reverse merman?`,
+    episode: 21,
+  },
+  {
+    id: 52,
+    text: `Would you rather always be hungry at work or always sleepy while driving?`,
+    episode: 22,
+  },
+  {
+    id: 53,
+    text: `Would you rather have the ability to teleport anywhere in the world but show up terminator style (without any clothes) or the ability to travel back in time but have to stay for exactly one month before going back?`,
+    episode: 22,
+  },
+  {
+    id: 54,
+    text: `Would you rather eat a meal you hate but cooked perfectly or eat a meal you love that has been completely ruined?`,
+    episode: 23,
+  },
+  {
+    id: 55,
+    text: `Would you rather have a completely automated home or a fully self driving car?`,
+    episode: 23,
+  },
+  {
+    id: 56,
+    text: `Would you rather share a cubicle with someone that's always over sharing or someone that's overly negative?`,
+    episode: 23,
+  },
+  {
+    id: 57,
+    text: `As a waiter, would you rather always be treated super nicely and get 20% tip or get treated horribly and get 40% tip?`,
+    episode: 24,
+  },
+  {
+    id: 58,
+    text: `Would you rather your name be Papa John or Little Ceaser?`,
+    episode: 24,
+  },
+  {
+    id: 59,
+    text: `Would you rather live in The Sahara or Antarctica?`,
+    episode: 26,
+  },
+  {
+    id: 60,
+    text: `Would you rather be  able to only eat hot food or cold food for the rest of your life?`,
+    episode: 26,
+  },
+  {
+    id: 61,
+    text: `Would you rather be on the run from King Kong or a Tyrannosaurus Rex?`,
+    episode: 26,
+  },
+  {
+    id: 62,
+    text: `Would you rather reverse one mistake you make a day or be able to freeze time for one minute once a day?`,
+    episode: 26,
+  },
+  {
+    id: 63,
+    text: `Would you rather vomit uncontrollably every time you hear the birthday song or feel like you're going to pass out every time you call a kid by the wrong name?`,
+    episode: 27,
+  },
+  {
+    id: 64,
+    text: `Would you rather never be able to leave your city ever again or have to leave right now and never return?`,
+    episode: 27,
+  },
+  {
+    id: 65,
+    text: `Would you rather get $5 for every song you sang in public or $50 for every piece of food you eat off a complete stranger's plate?`,
+    episode: 27,
+  },
+  {
+    id: 66,
+    text: `Would you rather have someone behind you, honking, and tailgating everywhere you drive or be stuck behind a lazy slow person everywhere you walked?`,
+    episode: 28,
+  },
+  {
+    id: 67,
+    text: `Would you rather only eat with a spoon or a knife for the rest of your life? Forks and fork-derivates are outlawed.`,
+    episode: 28,
+  },
+  {
+    id: 68,
+    text: `Would you rather always have your outfits consist of shirts and pants that's the exact same color and pattern or have to constantly wear a hodgepodge of clashing colors and patterns? (You cannot go all black or all white)`,
+    episode: 28,
+  },
+  {
+    id: 69,
+    text: `Would you rather live in a big house in a high crime rate area or a small house in a low crime rate area?`,
+    episode: 29,
+  },
+  {
+    id: 70,
+    text: `Would you rather double the wait time whenever you have to be in a line or always hit every red light on the way to work?`,
+    episode: 29,
+  },
+  {
+    id: 71,
+    text: `Would you rather the plot be spoiled for every movie that you ever watch or never understand the plot of even the simplest movies?`,
+    episode: 30,
+  },
+  {
+    id: 72,
+    text: `Would you rather only have to sleep 1 hour and be able to work at your regular productivity or sleep for 9 hours but be able to work at twice your regular productivity?`,
+    episode: 30,
+  },
+  {
+    id: 73,
+    text: `Would you rather be tackled by an NFL linebacker or sat on by a sweaty sumo wrestler?`,
+    episode: 31,
+  },
+  {
+    id: 74,
+    text: `Would you rather be every decision in your life be made by a complete stranger or a magic eight ball?`,
+    episode: 31,
+  },
+  {
+    id: 75,
+    text: `Would you rather talk like Yoda or breathe like Darth Vader?`,
+    episode: 31,
+  },
+  {
+    id: 76,
+    text: `Would you rather get your daily exercise while you're sleeping or to eat anything you want and have it be healthy for you?`,
+    episode: 32,
+  },
+  {
+    id: 77,
+    text: `Would you rather be sweating or fighting off mosquitos all night?`,
+    episode: 33,
+  },
+  {
+    id: 78,
+    text: `Would you rather only be able to use the internet 15 minutes a day or be able to send 1 text message per hour?`,
+    episode: 33,
+  },
+  {
+    id: 79,
+    text: `Would you rather be able to watch your dreams on TV or be fully immersed in a video game?`,
+    episode: 33,
+  },
 ];
